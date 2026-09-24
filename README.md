@@ -1,114 +1,50 @@
-# Thiranex Internship — Task 2
-## Retail Sales Data Cleaning, Visualization & Business Insights
+# 📊 Thiranex Internship — Task 2
+## Retail Data Cleaning, Visualization & Business Insights
 
-A complete data cleaning and exploratory analysis project using the **UCI Online Retail Dataset**.  
-The project focuses on cleaning raw retail transaction data, handling missing and invalid records, creating useful features, visualizing sales patterns, and extracting business insights.
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)](https://matplotlib.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
 
----
+An end-to-end retail analytics project completed for the Thiranex Internship — Task 2 using the UCI Online Retail Dataset.
 
-## 📌 Project Overview
+## 🎯 Objective
 
-This project was completed as part of the **Thiranex Internship — Task 2: Data Cleaning & Visualization**.
+Transform raw retail transactions into a clean analytical dataset and extract useful business insights through visualization.
 
-The analysis follows an end-to-end data analytics workflow:
+## 🔄 Workflow
 
-- Load and inspect raw retail transaction data
-- Identify missing values and duplicate records
-- Investigate cancellations and invalid transactions
-- Clean and transform the dataset
-- Create revenue-based features
-- Analyse sales performance
-- Visualize important business patterns
-- Extract actionable business insights
+**Inspect → Clean → Transform → Analyse → Visualize → Interpret**
 
----
+- Dataset structure and data-quality checks
+- Missing-value analysis
+- Duplicate detection
+- Cancellation and invalid-transaction analysis
+- Revenue feature creation
+- Sales analysis by country, product, and month
+- Business-focused visualizations
+- Final insights and conclusions
 
-## 🎯 Objectives
+## 📦 Dataset
 
-The main objectives of this project are:
+**UCI Online Retail Dataset**  
+541,909 rows · 8 columns
 
-1. Understand the structure of a large retail transaction dataset.
-2. Identify and handle missing values.
-3. Detect and remove duplicate and invalid records.
-4. Analyse cancelled and negative transactions.
-5. Calculate transaction-level revenue.
-6. Analyse sales by country, product and month.
-7. Create visualizations for business interpretation.
-8. Summarize key findings from the cleaned dataset.
+Key fields include Invoice, Stock Code, Description, Quantity, Invoice Date, Unit Price, Customer ID, and Country.
 
----
+[Dataset source](https://archive.ics.uci.edu/dataset/352/online+retail)
 
-## 📊 Dataset
+## 🛠️ Stack
 
-**Dataset:** Online Retail Dataset
+Python · Pandas · NumPy · Matplotlib · Jupyter Notebook · Excel
 
-**Source:** UCI Machine Learning Repository
+## 💡 Core Feature
 
-The dataset contains retail transactions with information such as:
+**Revenue = Quantity × UnitPrice**
 
-- Invoice Number
-- Stock Code
-- Product Description
-- Quantity
-- Invoice Date
-- Unit Price
-- Customer ID
-- Country
+## 👨‍💻 Author
 
-The original dataset contains **541,909 rows and 8 columns**.
+**Satyam Kumar Singh**  
+B.Tech AI & ML — 3rd Year
 
-Dataset source:
-
-https://archive.ics.uci.edu/dataset/352/online+retail
-
----
-
-## 🛠️ Technologies Used
-
-- **Python**
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Jupyter Notebook**
-- **Excel (.xlsx)**
-
----
-
-## 🔍 Data Cleaning Process
-
-The following cleaning steps were performed:
-
-### 1. Initial Data Inspection
-- Checked dataset dimensions
-- Examined data types
-- Inspected descriptive statistics
-- Analysed missing values
-- Identified duplicate records
-
-### 2. Missing Values
-Missing values were investigated, particularly in:
-
-- `Description`
-- `CustomerID`
-
-Cleaning decisions were made based on whether the records were still useful for transaction analysis.
-
-### 3. Duplicate Records
-Duplicate transaction rows were identified and removed.
-
-### 4. Invalid Transactions
-The dataset was examined for:
-
-- Cancelled transactions
-- Negative quantities
-- Invalid prices
-- Non-positive sales values
-
-Only valid positive-sales transactions were retained for the main revenue analysis.
-
-### 5. Feature Engineering
-
-A revenue feature was calculated using:
-
-```python
-Revenue = Quantity × UnitPrice
+> Thiranex Internship • Retail Analytics • Data Cleaning & EDA

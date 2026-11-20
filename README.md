@@ -1,6 +1,10 @@
 # 📊 Thiranex Internship — Task 2
 ## Retail Data Cleaning, Visualization & Business Insights
 
+## Open the project
+
+**[View the completed analysis notebook](Thiranex_Task_2_Data_Cleaning_Visualization_COMPLETED.ipynb)**. Open in Jupyter Notebook or Google Colab and run the cells in order after supplying any requested input data.
+
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C?logo=matplotlib&logoColor=white)](https://matplotlib.org/)
